@@ -8,7 +8,7 @@ WHAT YOU GET
     AutoForce 3D Desktop ....... company logo, the line
                                   "Safety is Not a Priority - It's a
                                   Prerequisite", and a live clock.
-    USMC 3D Desktop ............ Marine Corps globe-and-anchor emblem,
+    USMC 3D Desktop ............ Marine Corps Eagle, Globe and Anchor emblem,
                                   "Semper Fidelis", and a live clock.
 
     Each has four looks.  Click the SCENE button (or press 1-4) to switch:

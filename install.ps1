@@ -20,7 +20,7 @@ $apps = @(
     @{ file = 'usmc-3d-desktop.html'
        link = 'USMC 3D Desktop.lnk'
        png  = 'usmc-3d-desktop-1920x1080.png'
-       desc = 'USMC 3D desktop (globe-and-anchor + Semper Fidelis)' }
+       desc = 'USMC 3D desktop (Eagle, Globe and Anchor + Semper Fidelis)' }
 )
 
 # every folder here is a Lively wallpaper package; add a line to add a theme
@@ -142,7 +142,7 @@ Write-Host "  Location : $appDir"
 Write-Host ''
 Write-Host '  Desktop icons:' -ForegroundColor White
 Write-Host '    AutoForce 3D Desktop  - company logo, safety line, live clock'
-Write-Host '    USMC 3D Desktop       - globe-and-anchor, Semper Fidelis, clock'
+Write-Host '    USMC 3D Desktop       - Eagle Globe and Anchor, Semper Fidelis, clock'
 Write-Host ''
 Write-Host '  Controls : 1-4 scene | SPACE pause | F fullscreen | ESC close' -ForegroundColor DarkGray
 Write-Host ''
