@@ -2,8 +2,8 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>3D Desktop Themes - U.S. AutoForce &amp; USMC</title>
-<meta name="description" content="Two animated 3D desktop themes - U.S. AutoForce and United States Marine Corps. Open in your browser, no install.">
+<title>U.S. AutoForce - Warehouse Tools</title>
+<meta name="description" content="Warehouse tools: animated AutoForce desktop theme and the bilingual weekly safety huddle generator (English/Spanish).">
 <style>
   :root { color-scheme: dark }
   * { box-sizing: border-box }
@@ -11,7 +11,7 @@
          font:16px/1.6 "Segoe UI",system-ui,-apple-system,Roboto,sans-serif }
   .wrap { max-width:1080px; margin:0 auto; padding:44px 22px 70px }
   h1 { margin:0 0 6px; font-size:clamp(26px,4.6vw,40px); letter-spacing:.3px }
-  .sub { margin:0 0 26px; color:#9db0cc; font-size:17px; max-width:66ch }
+  .sub { margin:0 0 26px; color:#9db0cc; font-size:17px; max-width:68ch }
   .bar { display:flex; gap:12px; flex-wrap:wrap; margin:0 0 34px }
   .btn { display:inline-block; padding:13px 22px; border-radius:11px; font-weight:600;
          text-decoration:none; border:1px solid #2c3d5c; background:#16223a; color:#e8eef8 }
@@ -25,71 +25,85 @@
   .card .in { padding:16px 18px 20px; display:flex; flex-direction:column; gap:9px; flex:1 }
   .card h2 { margin:0; font-size:20px }
   .card p { margin:0; color:#9db0cc; font-size:14.5px }
-  .card .go { margin-top:auto; padding-top:6px }
+  .card ul { margin:0; color:#9db0cc; font-size:14.5px; padding-left:20px }
+  .card li { margin:3px 0 }
+  .card .go { margin-top:auto; padding-top:8px }
   .card .go .btn { display:block; text-align:center }
   .tag { display:inline-block; font-size:11.5px; letter-spacing:1.4px; text-transform:uppercase;
          color:#8ea6c8; margin-bottom:2px }
-  .af h2 { color:#ffd166 } .us h2 { color:#ffc72c }
+  .af h2 { color:#ffd166 }
+  .hudle h2 { color:#5ec9a8 }
   h2.sec { margin:44px 0 12px; font-size:21px }
   table.keys { border-collapse:collapse; width:100%; max-width:620px; font-size:15px }
   table.keys td { padding:7px 10px; border-bottom:1px solid #1b2740; vertical-align:top }
   table.keys td:first-child { color:#ffd166; white-space:nowrap; font-family:Consolas,monospace }
-  ul.notes { color:#9db0cc; padding-left:20px; max-width:72ch }
+  ul.notes { color:#9db0cc; padding-left:20px; max-width:74ch }
   ul.notes li { margin:7px 0 }
   .warn { border-left:3px solid #f0ad1e; background:#1a1408; padding:12px 16px;
-          border-radius:0 9px 9px 0; color:#f4dfa8; max-width:74ch; margin:18px 0 }
+          border-radius:0 9px 9px 0; color:#f4dfa8; max-width:76ch; margin:18px 0 }
   footer { margin-top:54px; padding-top:20px; border-top:1px solid #1b2740;
            color:#75879f; font-size:13.5px }
   a { color:#7fb2ff }
 </style>
 <div class="wrap">
 
-<h1>3D Desktop Themes</h1>
-<p class="sub">Two animated desktop themes &mdash; one for U.S. AutoForce, one for the
-United States Marine Corps. Each opens straight in your browser. Nothing to install,
-no administrator rights, no internet needed once it is open.</p>
+<h1>U.S. AutoForce &mdash; Warehouse Tools</h1>
+<p class="sub">Two things here: an animated AutoForce desktop theme, and the bilingual
+weekly warehouse safety huddle generator. Both open right in the browser &mdash;
+nothing to install, no administrator rights.</p>
 
 <div class="bar">
-  <a class="btn pri" href="3D-Desktop-Setup.zip" download>Download everything (ZIP, 2.3 MB)</a>
-  <a class="btn" href="README.txt">Read the instructions (TXT)</a>
+  <a class="btn pri" href="autoforce-3d-desktop.html">Open the desktop theme</a>
+  <a class="btn pri" href="safety-huddle.html">Open the safety huddle generator</a>
+  <a class="btn" href="3D-Desktop-Setup.zip" download>Download the desktop theme (ZIP, 2.3 MB)</a>
 </div>
 
 <div class="cards">
   <div class="card af">
-    <img src="autoforce-3d-desktop-1920x1080.png" alt="U.S. AutoForce 3D desktop scene">
+    <img src="autoforce-3d-desktop-1920x1080.png" alt="AutoForce 3D desktop scene">
     <div class="in">
-      <span class="tag">Company</span>
-      <h2>U.S. AutoForce</h2>
+      <span class="tag">Desktop</span>
+      <h2>Animated AutoForce Theme</h2>
       <p>Company logo, &ldquo;Safety is Not a Priority &ndash; It&rsquo;s a Prerequisite&rdquo;,
-         and a live clock. Four looks: Night Highway, Crimson Dawn, Indigo&nbsp;Deck, Stealth.</p>
-      <div class="go"><a class="btn pri" href="autoforce-3d-desktop.html">Open AutoForce theme</a></div>
+         and a live clock. Four looks: Night Highway, Crimson Dawn, Indigo&nbsp;Deck, Stealth.
+         No internet needed once it is open.</p>
+      <div class="go"><a class="btn pri" href="autoforce-3d-desktop.html">Open the theme</a></div>
     </div>
   </div>
-  <div class="card us">
-    <img src="usmc-3d-desktop-1920x1080.png" alt="USMC 3D desktop scene">
+  <div class="card hudle">
     <div class="in">
-      <span class="tag">Marine Corps</span>
-      <h2>United States Marine Corps</h2>
-      <p>Globe-and-anchor emblem, &ldquo;Semper Fidelis&rdquo;, and a live clock.
-         Four looks: Scarlet &amp; Gold, Night Patrol, Sunset Watch, Gold&nbsp;Standard.</p>
-      <div class="go"><a class="btn pri" href="usmc-3d-desktop.html">Open USMC theme</a></div>
+      <span class="tag">Safety</span>
+      <h2>Warehouse Safety Huddle Generator</h2>
+      <p>One safety topic per week, laid out to print on a single sheet &mdash;
+         in English and Spanish. Pick a week, pick a language, print or save as PDF.
+         Same topic every week of the year, rotating automatically.</p>
+      <ul>
+        <li>24 rotating warehouse safety topics</li>
+        <li>English &amp; Spanish side by side</li>
+        <li>Prints one page per language</li>
+        <li>Also takes <b>Show topic pool</b> for browsing all 24</li>
+      </ul>
+      <div class="go"><a class="btn pri" href="safety-huddle.html">Open the generator</a></div>
     </div>
   </div>
 </div>
 
-<h2 class="sec">To keep it &mdash; download the ZIP</h2>
+<h2 class="sec">Using the desktop theme</h2>
 <ul class="notes">
-  <li>The links above open in a normal browser tab. Press <b>F</b> for full screen.</li>
-  <li>To keep a theme, download the ZIP, right-click it &gt; <b>Extract All</b>, then
-      double-click <b>START-HERE.html</b> inside. Either theme then opens in a borderless
-      full-screen window &mdash; press <b>ESC</b> to close.</li>
-  <li>For a shortcut on the desktop, run <b>install.bat</b> in the extracted folder.
-      It is optional and needs no admin rights. Some work email systems remove
-      <b>.bat</b> and <b>.ps1</b> files &mdash; if they are missing, ignore them and use
-      the double-click method above; nothing is lost.</li>
+  <li>Click <b>Open the theme</b> and it runs in a normal browser tab. Press <b>F</b> for full screen.</li>
+  <li>To keep it, download the ZIP above, right-click &gt; <b>Extract All</b>, then double-click
+      <b>START-HERE.html</b>. After that it opens in a borderless full-screen window &mdash;
+      press <b>ESC</b> to close.</li>
+  <li>For a desktop shortcut, run <b>install.bat</b> in the extracted folder. It is optional and
+      needs no admin rights. Some work email systems strip <b>.bat</b> and <b>.ps1</b> files &mdash;
+      if they are missing, ignore them and use the double-click method; nothing is lost.</li>
+  <li>Want it as your <i>actual</i> desktop background, behind your icons? The ZIP includes a
+      <b>Lively</b> folder for that &mdash; install the free &ldquo;Lively Wallpaper&rdquo; app from the
+      Microsoft Store, then in Lively choose <b>Library &gt; Add</b> and pick the
+      <b>AutoForce-3D-Lively</b> folder from the extracted ZIP.</li>
 </ul>
 
-<h2 class="sec">Keys</h2>
+<h2 class="sec">Theme keys</h2>
 <table class="keys">
   <tr><td>move mouse</td><td>show the buttons</td></tr>
   <tr><td>1 2 3 4</td><td>change scene</td></tr>
@@ -101,26 +115,25 @@ no administrator rights, no internet needed once it is open.</p>
   <tr><td>ESC</td><td>close the window</td></tr>
 </table>
 
-<div class="warn">
-  <b>Want it as your real desktop background &mdash; behind your icons?</b><br>
-  The downloaded ZIP includes two <b>Lively</b> folders for that. Install the free
-  &ldquo;Lively Wallpaper&rdquo; app from the Microsoft Store, then in Lively choose
-  <b>Library &gt; Add</b> and select the <b>USMC-3D-Lively</b> or
-  <b>AutoForce-3D-Lively</b> folder from the extracted ZIP.
-</div>
-
-<h2 class="sec">If the animation is choppy</h2>
+<h2 class="sec">Printing the huddle</h2>
 <ul class="notes">
-  <li>Move the mouse to bring up the buttons, then click <b>LITE</b>. That drops the
-      stars, speed lines and scanlines &mdash; on a laptop it is the difference
-      between smooth and not.</li>
-  <li>Press <b>P</b> for the plain scene with no logo or clock at all.</li>
+  <li>In the generator, pick the <b>week</b> (or leave it on the current one) and the
+      <b>language</b>, then click <b>Print / Save as PDF</b>.</li>
+  <li>Choose <b>Save as PDF</b> instead of a printer to send it out or post it.</li>
+  <li>Both languages together is a two-page PDF &mdash; one page per language.</li>
+  <li>The animated background is off by default so nothing interferes with printing.
+      There is a <b>3D Deck</b> button if you want the animated look for presenting.</li>
 </ul>
 
+<div class="warn">
+  <b>If the animation is choppy</b> &mdash; move the mouse to bring up the buttons and click
+  <b>LITE</b>. That drops the stars, speed lines and scanlines, which is usually the difference
+  between smooth and not on an older laptop. Press <b>P</b> for the plain scene.
+</div>
+
 <footer>
-  Self-contained web pages &mdash; not a program. Nothing is uploaded, nothing is
-  tracked, no internet connection is used once a theme is open. Delete the extracted
-  folder to remove everything.<br>
-  Built with the U.S. AutoForce 3D desktop generator.
+  Self-contained web pages &mdash; not a program. Nothing is uploaded, nothing is tracked,
+  no internet connection is needed once a page is open.<br>
+  U.S. AutoForce warehouse tools.
 </footer>
 </div>
