@@ -1,0 +1,30 @@
+Copy and paste everything between the lines below into the email.
+
+--------------------------------------------------------
+Hi,
+
+Attached is a ZIP with two animated desktop themes - one for U.S. AutoForce
+and one for the Marine Corps.  There is nothing to install.
+
+To try one:
+
+  1. Save this email's attachment to your Desktop.
+  2. Right-click 3D-Desktop-Setup.zip  >  Extract All  >  Extract.
+  3. Double-click START-HERE.html inside the folder that appears.
+  4. Pick a theme.  Press ESC when you want to close it.
+
+(If your computer asks before extracting, choose "Extract".)
+
+Each theme has four looks you can cycle with the SCENE button or the number
+keys 1-4, and a live clock.  It runs with no internet connection.
+
+If you want it as your real desktop background - behind your icons rather
+than in a window - the free "Lively Wallpaper" app from the Microsoft Store
+does that in about a minute, and there are instructions in README.txt.
+
+The .html files are the theme; you can move them anywhere or delete them
+whenever you like.  No install, no admin rights, nothing left behind.
+
+Thanks,
+[your name]
+--------------------------------------------------------
